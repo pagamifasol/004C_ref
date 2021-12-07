@@ -1,0 +1,87 @@
+assemblyName	   AssemblyDoubleWishBone
+lonPosType	                     rear
+unitsFile
+                   length	mm
+                    force	newton
+end
+leftSuspFile
+                 suspType	DoubleWishBone
+                 suspName	SUSP_REAR_004C_Check2021_Baseline
+               latPosType	left
+               lonPosType	rear
+              wheelCenter	                     2825	                     -802	                       47
+                 ucaFront	                 2762.335	                     -440	                  134.999
+                  ucaRear	                     3025	                     -440	                  124.999
+                 ucaOuter	                 2894.951	                   -708.5	                  165.002
+                 lcaFront	                     2545	                     -465	                    -52.5
+                  lcaRear	                     2945	                     -400	                 -138.501
+                 lcaOuter	                     2871	                     -767	                 -106.502
+              tierodOuter	                     2703	                 -694.999	                  121.507
+              tierodInner	                 2614.993	                  -439.98	                   98.005
+         springUpperMount	                 2902.657	                 -128.299	                  350.341
+         springLowerMount	                  2901.13	                 -467.615	                  315.144
+         damperUpperMount	                 2902.657	                 -128.299	                  350.341
+         damperLowerMount	                  2901.13	                 -467.615	                  315.144
+                  arbLink	                 2849.194	                 -506.069	                  125.657
+                 toeAngle	                        0
+              camberAngle	                     -3.5
+             groundHeigth	                       95
+              wheelRadius	                      346
+               wheelWidth	                      310
+           toeSetupActive	                        0
+                 toeSetup	                        0
+        camberSetupActive	                        0
+              camberSetup	                     -2.5
+         rideHeigthActive	                        0
+               rideHeigth	                       70
+                  kSpring	                      190
+            springPreload	                     5500
+                 cgHeight	                      380
+                wheelBase	                     2825
+               driveRatio	                        0
+               brakeRatio	                       75
+         springAttachment	                        1
+    tierodInnerAttachment	                        0
+                  cDamper	                       10
+    rideHeightRefPosition	                        1
+            arbAttachment	                        1
+                kUcaFront	                     1000	                     2600	                     1100	                     5800	                     7000	                      380	                   75.069	                   88.155	                  270.492
+                 kUcaRear	                     1000	                     2600	                     1100	                     5800	                     7000	                      380	                  255.069	                   91.845	                   89.508
+                kLcaFront	                     4400	                     4400	                      800	                    26000	                    26000	                     1000	                   82.875	                   89.289	                  270.089
+                 kLcaRear	                     4400	                     4400	                      800	                    26000	                    26000	                     1000	                   82.875	                   89.289	                  270.089
+             kTierodInner	                   100000	                   100000	                   100000	                       10	                       10	                       10	                      180	                       90	                      180
+end
+rightSuspFile
+                     symm
+end
+aRollFile
+                aRollType	AntiRollBar
+                aRollName	TestAR
+               lonPosType	rear
+               bendARLeft	                 2819.399	                 -413.017	                 -158.977
+               dropARLeft	                 2876.839	                   -517.7	                 -146.058
+              bendARRight	                 2819.399	                      357	                 -158.977
+              dropARRight	                 2876.839	                  413.017	                 -146.058
+                 kTorsion	                        0
+             kTorsionType	                        0
+end
+analysisFile
+                    setup	0
+                      kin	1
+              jounceStart	-100
+                jounceEnd	100
+                  nJounce	20
+               steerStart	-180
+                 steerEnd	180
+                   nSteer	8
+              forceXStart	-3500
+                forceXEnd	3500
+              forceYStart	-3500
+                forceYEnd	3500
+             momentZStart	-500000
+               momentZEnd	500000
+                   nForce	8
+              deltaJounce	60
+                    nRoll	12
+               outputFile	output
+end
